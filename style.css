@@ -1,3 +1,15 @@
 #root {
-  color: red;
+  color: rgb(3, 0, 0);
+}
+
+.container {
+  display: flex;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #3c948b;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
 }
