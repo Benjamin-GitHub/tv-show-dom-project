@@ -1,13 +1,39 @@
 #root {
-  color: rgb(3, 0, 0);
+  display: flex;
+  color: rgb(0, 0, 0);
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.card-wrapper {
+width: 300px;
+height: 550px;
+margin: 0 20px 30px 20px;
+box-shadow: 0px 0px 38px -20px rgba(34, 60, 80, 0.56);
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  min-height: 90px;
+  padding: 0 20px;
+  border-bottom: 2px solid #999999;
 }
 
 .container {
   display: flex;
+  justify-content: flex-end;
 }
 
 .footer-copyright {
-  text-align: center;
   color: #3c948b;
   background-color: transparent;
   text-decoration: none;
